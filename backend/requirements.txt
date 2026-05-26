@@ -1,0 +1,73 @@
+# FastAPI and Server
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+websockets==12.0
+
+# Database
+motor==3.3.2  # Async MongoDB driver
+pymongo==4.6.1
+qdrant-client==1.7.3
+
+# Data Validation
+pydantic[email]==2.5.3
+pydantic-settings==2.1.0
+email-validator==2.1.0
+python-dotenv==1.0.0
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.0.1
+
+# AI Providers - STT
+openai==1.10.0
+groq==0.11.0
+assemblyai==0.20.0
+deepgram-sdk==3.0.0
+
+# AI Providers - LLM
+anthropic==0.18.1
+google-genai==0.3.0
+
+# AI Providers - TTS
+elevenlabs==1.2.2
+
+# AI Providers - Embeddings
+voyageai>=0.2.1,<0.3
+cohere==4.45
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+pandas==2.1.4
+openpyxl==3.1.2  # For Excel support in pandas
+
+# Telephony
+twilio==8.11.1
+
+# Audio Processing
+pydub==0.25.1
+numpy==1.26.3
+
+# HTTP Clients
+aiohttp==3.9.1
+httpx==0.26.0
+requests==2.31.0
+
+# Utilities
+python-dateutil==2.8.2
+pytz==2024.1
+
+# Testing
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+httpx==0.26.0  # For testing FastAPI endpoints
+
+# Development
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+isort==5.13.2
